@@ -19,7 +19,4 @@ $(document).ready(function(){
         $('.burger-menu,nav').toggleClass('active');
         $('body').toggleClass('lock');
     });
-    $('.drop_btn').click(function (event) {
-        $('.drop_list').toggleClass('active');
-    })
 });
